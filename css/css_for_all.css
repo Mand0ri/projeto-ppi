@@ -1,0 +1,364 @@
+/*Reset
+* {
+  border-width: 0;
+  font-size: 24px;
+  margin: auto;
+  padding: 0;
+}*/
+
+/*displays*/
+.d-flex {
+  display: flex;
+}
+/*Arrumando tags*/
+/*Arrumando o header*/
+header {
+  background-color: #a5e16a;
+  border-top-style: solid;
+  border-top-color: white;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-radius: 10px ;
+}
+
+h1 {
+  display: none;
+  font-family: 'Times New Roman', Times, serif;/*NÃ£o precisa escolher fonte kk*/
+}
+
+h2 {
+  margin: 20px 0 0 0;
+  padding: 0;
+  color:white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+  font-family: Edo SZ; 
+  font-size:70px; 
+}
+
+/*Body*/
+body {
+  background-color: #dcdfd9; /*ESCOLHER COR*/
+}
+/*Arrumando o forms*/
+label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*ESCOLHER FONTE*/
+  margin-left: auto;
+  
+}
+
+input {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*ESCOLHER FONTE*/
+}
+
+button {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*ESCOLHER FONTE*/
+  
+}
+
+footer {
+    background-color: #a5e16a;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 18px; 
+    color: white;
+}
+
+/*Lista.html*/
+
+tr{
+  background-color: white;
+   color: black;
+}
+
+/*Classes*/
+.custom-file-input:hover {
+  cursor: pointer;  
+} 
+
+.bot1 {
+  /*margin: 15px 50% 0;
+  margin-top: 15px;*/
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 15px auto;
+  background-color:#a5e16a;
+  border-color: #a5e16a;
+  color:white;
+
+}
+.bot1:hover {
+  background-color:white;
+  border-color: #a5e16a;
+  color:#a5e16a;
+}
+
+/* Opcional */
+div.card-body div a  {
+  display: flex;
+  width: 50%;
+  float: left;
+  margin: auto;
+  color:#a5e16a;
+}
+
+/*.center {
+  
+}*/
+
+#logo{
+  margin-left: 20px;
+}
+
+main{
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.secao-criadores {
+    max-width: 20%;
+}
+
+.secao-contatos {
+    max-width: 20%;
+}
+
+.secao-historia {
+    max-width: 40%;
+    text-align: justify;
+}
+
+.lista-criadores , .lista-contatos {
+    list-style: none;
+    padding: 0;    
+}
+
+.lista-contatos li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li {
+    margin-bottom: 4px;
+}
+
+.lista-contatos li:hover {
+    font-weight: bold;
+}
+
+.lista-titulo-footer {
+    margin-bottom: 12px;
+}
+
+.direitos { 
+    margin-top: 12px;
+    text-align: center;
+}
+
+
+footer{
+    margin-top: 15px;
+    }
+
+@font-face { 
+   font-family: 'Edo SZ';
+   src: url('../materials/fonts/edosz.ttf');
+}
+
+#modal-body {
+  text-align: center;
+}
+
+#icone-certo {
+  color:#a5e16a;
+  font-size: 48px;
+}
+
+#botaoVisualizar {
+  margin: 15px auto;
+  background-color:#a5e16a;
+  border-color: #a5e16a;
+  color:white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#botaoVisualizar:hover {
+  background-color:white;
+  border-color: #a5e16a;
+  color:#a5e16a;
+}
+
+/* MENU */
+:root{
+  --clr:#dcdfd9;
+}
+
+.navigation {
+  /* margin-right: 50px; */
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 10px; */
+}
+
+.navigation ul{
+  width: 350px;
+}
+
+.navigation ul li{
+  position: relative;
+  list-style-type: none;
+  width: 70px;
+  height: 70px;
+  z-index: 1;
+}
+
+.navigation ul li a{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 500;
+}
+
+.navigation ul li a .material-icons {
+  position: relative;
+  display: block;
+  line-height: 75px;
+  text-align: center;
+  font-size: 1.5em;
+  transition: 0.5s;
+  color: var(--clr);
+  /* color: black; */
+}
+
+.navigation ul li:hover a .material-icons{
+  transform: translateX(-120px);
+}
+
+.navigation ul li a .text {
+  position: absolute;
+  /* color: var(--clr); */
+  color: black;
+  font-family: Edo SZ;
+  font-weight: 400;
+  font-size: 0.75em;
+  letter-spacing: 00.75em;
+  transition: 0.5s;
+  opacity: 0;
+  transition: translateY(20);
+}
+
+.navigation ul li:hover a .text{
+  opacity: 1;
+  transition: translateY(10);
+}
+
+/* .indicator {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #a5e16a;
+  top: -50%;
+  border-radius: 50%;
+  border: 6px solid white;
+  transition: 0.5s;
+} */
+
+/* .indicator::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  left: -22.5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -10px 0 0 var(--clr);
+}
+
+.indicator::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  left: -22.5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -10px 0 0 var(--clr);
+} */
+
+/*Zona da responsividade*/
+@media screen and (max-width: 375px){
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.secao-criadores {
+    max-width: 100%;
+}
+
+.secao-contatos {
+    max-width: 100%;
+}
+
+.secao-historia {
+    max-width: 100%;
+}
+
+footer ul li {
+    margin-bottom: 0px;
+}
+
+.lista-titulo-footer {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.direitos{
+    font-size: small;
+}
+/*Eu*/
+footer {
+  width: 160%;
+}
+
+header {
+  width: 160%;
+}
+h1, h2{
+  width: 50%;
+}
+.navigation {
+  position: static;
+  width: 160%;
+}
+
+.navigation ul li:hover a .material-icons{
+  transform: translateX(0);
+}
+
+.navigation ul li a .text {
+  display: none;
+}
+
+}
