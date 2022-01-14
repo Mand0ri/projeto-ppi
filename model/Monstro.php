@@ -79,7 +79,7 @@ class Monstro
     // Funções
     public function atualizar()
     {
-        $tabela = "monstros";
+        $tabela = "monstro";
         $parametros = "nome='" . $this->nome . "',tipo='" . $this->tipo . "',nivel=" . $this->nivel . ",hp=" . $this->hp . ",face='" . $this->face . "'";
         // $parametros = "nome='". $this->nome ."',valor=".$this->valor.",cor='".$this->cor."'";
         Conexao::update(
@@ -94,7 +94,7 @@ class Monstro
         $tabela = "";
         $colunas = "";
         $valores = "";
-        $tabela = "monstros";
+        $tabela = "monstro";
         $colunas = "nome, tipo, nivel, hp, face";
         $valores = "'" . $this->nome . "', '" . $this->tipo . "', " . $this->nivel . ", " . $this->hp . ", '" . $this->face . "'";
         Conexao::insert($tabela, $colunas, $valores);
@@ -102,7 +102,7 @@ class Monstro
 
     public static function retornarTodos()
     {
-        $tabela = "monstros";
+        $tabela = "monstro";
         $colunas = "id, nome, tipo, nivel, hp, face";
 
         $dados = Conexao::select($tabela, $colunas);
@@ -122,7 +122,7 @@ class Monstro
 
     public static function retornarPorId($id)
     {
-        $tabela = "monstros";
+        $tabela = "monstro";
         $colunas = "id, nome, tipo, nivel, hp, face";
 
         $dados = Conexao::selectById($tabela, $colunas, $id);
@@ -142,6 +142,6 @@ class Monstro
 
     public static function deletar($id)
     {
-        Conexao::delete("monstros", $id);
+        Conexao::delete("monstro", $id);
     }
 }
