@@ -21,6 +21,6 @@
     else{
         $novoMonstro->atualizar();
     }
-    header("Location: ../lista");
+    header("Location: ../");
     ?>
 </pre>
