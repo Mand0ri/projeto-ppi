@@ -18,6 +18,19 @@
                     <li><a href="#">Mais informações</a></li>
                 </ul>
             </div>
+            
+            <div class="secao-contato">
+                <h3 class="lista-titulo-footer">Outras partys</h3>
+                <ul class="lista-contatos">
+                    <li><a href="https://app-especiaisnba.herokuapp.com">Especiais NBA</a></li>
+                    <li><a href="https://ressacaliteraria.herokuapp.com">Ressaca Literária</a></li>
+                    <li><a href="https://ppi-julio-2022.herokuapp.com">Anime Log</a></li>
+                    <li><a href="https://ppi-projeto-4bi.herokuapp.com">Catálogo de Livros</a></li>
+                    <li><a href="https://ppi-catalogofilmes.herokuapp.com/">Catálogo de Filmes</a></li>
+                    <li><a href="https://dashboard.heroku.com/apps/ppi-projeto-3edemais">3edemais</a></li>
+                    <li><a href="https://projeto-4v.herokuapp.com/">Cadastro de Produtos para limpeza</a></li>
+                </ul>
+            </div>
 
             <div class="secao-historia">
                 <h3 class="lista-titulo-footer">Código im Kafig</h3>
