@@ -13,7 +13,7 @@
         ->setFace($_GET["face"])
         ->setId($_GET["id"]);
         
-    print_r($novoMonstro);
+    //print_r($novoMonstro);
 
     if($novoMonstro->getId() == ''){
         $novoMonstro->salvar();
