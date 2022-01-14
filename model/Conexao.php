@@ -59,8 +59,9 @@ class Conexao
     {
         try {
             $conexao = new PDO(
-                "mysql:host=127.0.0.1;dbname=ppiprojetct",
-                "root"
+                "pgsql:host=ec2-174-129-37-144.compute-1.amazonaws.com;port=5432;dbname=dvvq75k6clf2n",
+                "yapneeeigojtiz",
+                "8f74c39ab10e85fccb703e819ce115042171e92930c71ae9c643b333446df0c6"
             );
             $conexao->setAttribute(
                 PDO::ATTR_ERRMODE,
