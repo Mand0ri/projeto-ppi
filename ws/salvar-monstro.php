@@ -1,7 +1,7 @@
 <pre>
     <?php
     require_once "../model/Monstro.php";
-    print_r($_GET);
+    //print_r($_GET);
 
     $novoMonstro = new Monstro();
 
@@ -21,6 +21,6 @@
     else{
         $novoMonstro->atualizar();
     }
-    header("Location: ../");
+    header("Location: ../lista");
     ?>
 </pre>
