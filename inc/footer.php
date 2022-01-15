@@ -30,6 +30,7 @@
                     <li><a href="https://dashboard.heroku.com/apps/ppi-projeto-3edemais">3edemais</a></li>
                     <li><a href="https://projeto-4v.herokuapp.com/">Cadastro de Produtos para limpeza</a></li>
                     <li><a href="https://projeto-catalogo-de-solteiros.herokuapp.com">Cadastro de Solteiros</a></li>
+                    <li><a href="https://pokesiteinfo4v.herokuapp.com">PokeSite</a></li>
                 </ul>
             </div>
 
