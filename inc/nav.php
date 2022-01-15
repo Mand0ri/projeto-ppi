@@ -7,7 +7,7 @@
                 </a>
             </li>
             <li class="list">
-                <a href="../index.php">
+                <a href="../registro.php">
                     <span class="material-icons">article</span>
                     <span class="text">Cadastro</span>
                 </a>
