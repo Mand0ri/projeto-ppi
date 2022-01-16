@@ -25,7 +25,7 @@
         <div class="secao">
             <h3>Praticidade</h3>
             <p class="secao-descricao">Faça o catálogo dos monstros da sua mesa de D&D de forma fácil e prática e torne sua experiência e a dos seus jogadores muito melhor!</p>
-            <a class="btn bot1" id="botaoComece" href="registro.php">Começe agora</a>
+            <a class="btn bot1" id="botaoComece" href="registro.php">Comece agora</a>
         </div>
         
         <div class="carousel-container">
